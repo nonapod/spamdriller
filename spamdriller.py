@@ -1,7 +1,7 @@
 #!/bin/env python
 # :
 # : spamdrill.py
-# :	Spamdrill
+# : Spamdrill
 # : Written by Les Cordell 
 # :
 # : This script will run through the /proc directory,
