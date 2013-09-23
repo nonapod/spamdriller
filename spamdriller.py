@@ -289,9 +289,10 @@ def logProcessOption(process, opt, logentry):
 			# On error, append the message to the logfile
 			logentry.append("Error Accessing File")
 			logentry.append(str(err))
-		except:
+		except Exception, err:
 			# On unknown error, append a message to the logfile
-			
+			logentry.append("Error")
+			logentry.append(str(err))
 	
 
 if __name__ == "__main__":
