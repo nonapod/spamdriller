@@ -232,7 +232,6 @@ def spamdrill():
 		logstring = ""
 		for line in logfile:
 			logstring += line + _CR
-			print line
 		outputFile.write(logstring)
 
 		#: CLOSE LOGFILE :#
